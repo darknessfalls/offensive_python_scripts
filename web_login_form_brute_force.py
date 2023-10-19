@@ -2,8 +2,8 @@ import requests# for web requests
 import sys
 
 target = "" # URL
-usernames = ["", "", ""]
-passwords = ""
+usernames = ["name1", "name2", "name3"]
+passwords = "file"
 needle = "token"#successful login message
 
 for email in usernames:
