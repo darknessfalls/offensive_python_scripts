@@ -8,7 +8,7 @@ if len(sys.argv) != 2:# checking for 2 command line arguments
 
 wanted_hash = sys.argv[1]# input value/hash we want to crack
 print(wanted_hash)
-password_file = ""
+password_file = "file"
 attempts = 0
 # ALWAYS DECODE WHAT YOU ENCODE!!
 with log.progress("Attempting to crack: {}!\n".format(wanted_hash)) as p:# our hash cracking job
